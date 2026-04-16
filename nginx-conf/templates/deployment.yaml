@@ -23,7 +23,7 @@ spec:
       containers:
         - name: nginx
           securityContext: {}
-          image: nginx:latest
+          image: ilospru2021.corp.amdocs.com:10001/nginx:latest
           imagePullPolicy: 'Always'
           env:
             - name: "ENVIRONMENT"
